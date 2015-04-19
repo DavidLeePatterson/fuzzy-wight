@@ -1,0 +1,9 @@
+package com.ascii
+
+enum ShapeType {
+     Diamond,
+     Pentagon,
+     Rectangle,
+     Square,
+     Triangle
+}
