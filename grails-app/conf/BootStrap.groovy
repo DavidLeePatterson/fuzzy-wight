@@ -5,8 +5,8 @@ class BootStrap {
 
     def init = { servletContext ->
         def art = new AsciiArt(shape: ShapeType.Square,
-                               shapeHeight: 4,
-                               artLabel: 'HI',
+                               height: 4,
+                               label: 'HI',
                                labelRow: 2)
 
         if(!art.save()){
